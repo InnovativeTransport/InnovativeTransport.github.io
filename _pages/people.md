@@ -4,6 +4,6 @@ title: "Members & Friends"
 ---
 
 {% for people in site.people %}
-  <h2>{{ people.name }} - {{ people.committee_position }}</h2>
-  <p>{{ people.org | markdownify }}, {{ people.title | markdownify }}</p>
+  <h3>{{ people.name }} - {{ people.committee_position }}</h3>
+  <p>{{ people.org, people.title | markdownify }}</p>
 {% endfor %}
