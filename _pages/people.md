@@ -7,4 +7,5 @@ title: "Members & Friends"
   <h3>{{ people.name }} - {{ people.committee_position }}</h3>
   <p>{{ people.title | markdownify }}</p>
   <p>{{ people.org | markdownify }}</p>
+  <hr>
 {% endfor %}

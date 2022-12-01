@@ -62,28 +62,23 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      url: "https://innovativetransport.github.io/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkdin"
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/innovativetransport"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/innovativetransport"
+
 
 defaults:
   # _pages
@@ -116,3 +111,8 @@ tag_archive:
 collections:
   people:
     people: true
+  jobs:
+    output: false
+  events:
+    output: false
+
