@@ -4,9 +4,13 @@ title: "Upcoming Events"
 ---
 
 {% for event in site.events %}
-  <h3>{{ event.name }}</h3>
-  <p>{{ event.date | markdownify }} </p>
-  <p>{{ event.location | markdownify }}</p>
-  <p>{{ event.website | markdownify }}</p>
+  <p>
+    <h4>{{ event.name}}</h4>
+    <ul style="list-style:none">
+      <li>When: {{ event.from_date | date_to_string }} - {{ event.to_date | date_to_string }} </li>
+      <li>Where: {{ event.location }} </li>
+      <li><a href="{{event.website}}">Website</a></li>
+    </ul>
+  </p>
   <hr>
 {% endfor %}
